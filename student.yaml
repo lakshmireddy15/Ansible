@@ -1,0 +1,24 @@
+- name: lakshmi
+  lastname: H
+  email: nagalakshmim@gmail..cm
+  address: #list of address
+  - type: permeanent
+    door: 456
+    street: police station 
+  - type: current
+    door: 4561
+    street: bank 
+
+
+
+- name: pavan
+  lastname: H
+  email: pavan@gmail..cm
+  address: #list of address
+  - type: permeanent
+    door: 4561
+    street: police station 
+  - type: current
+    door: 45611
+    street: bank 
+
