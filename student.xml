@@ -1,0 +1,21 @@
+
+<Student>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <Address>
+        <Current>
+            <Street>123 Main Street</Street>
+            <City>Hyderabad</City>
+            <State>Telangana</State>
+            <PostalCode>500001</PostalCode>
+            <Country>India</Country>
+        </Current>
+        <Permanent>
+            <Street>456 Park Avenue</Street>
+            <City>Vijayawada</City>
+            <State>Andhra Pradesh</State>
+            <PostalCode>520001</PostalCode>
+            <Country>India</Country>
+        </Permanent>
+    </Address>
+</Student>
