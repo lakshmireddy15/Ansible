@@ -7,4 +7,14 @@
   - course.yaml
   vars_prompt:
   - name: GREETING
+    prompt: please enter the grettings
+    private: false
+
+  tasks:
+  - name: print the grettings
+    vars:
+      GREETING "hello from Task"
+    ansible.builtin.debug:
+      msg: {{ GREETING }}
+
   
