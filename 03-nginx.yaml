@@ -6,7 +6,7 @@
       name: nginx
       state: present
   - name: start nginx
-    ansible.buitin.service:
+    ansible.builtin.package:
       name: nginx
       state: started
       enabled: yes # it is equal to systemctl start and enable
