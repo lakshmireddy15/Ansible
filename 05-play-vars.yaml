@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   vars:
-  COURSE: DevOps
-  DURATION: 120 hrs
-  TRAINER: siva
+    COURSE: DevOps
+    DURATION: 120 hrs
+    TRAINER: siva
   tasks:
 
   - name: print source information
