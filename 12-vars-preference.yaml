@@ -1,0 +1,10 @@
+- name: undestanding the vars prefernce
+  hosts: local
+  connection: local
+  vars:
+  GREETING: "hello from play"
+  vars_files:
+  - course.yaml
+  vars_prompt:
+  - name: GREETING
+  

@@ -1,0 +1,19 @@
+- name: play level varaibles
+  hosts: local
+  connection: local
+  vars:
+  COURSE: DevOps
+  DURATION: 120 hrs
+  TRAINER: siva
+  tasks:
+  COURSE: ansible
+  DURATION: 12 hrs
+  TRAINER: siva
+
+  - name: print source information
+  ansible.buitin.debug:
+    msg: "hello couser {{ COURSE }} duration {{ DURATION }} with trainer {{ TRAINER}}"
+  
+  - name: print source information again
+    ansible.buitin.debug:
+     msg: "hello couser {{ COURSE }} duration {{ DURATION }} with trainer {{ TRAINER}}"

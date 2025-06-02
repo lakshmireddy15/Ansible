@@ -1,0 +1,15 @@
+- name: niginx install and run
+  hosts: frontend
+  become: yes # this is for sudo acess
+  tasks:
+  - name: install niginx
+  ansible.builtin.package:
+    name: niginx
+    status: present
+
+  - name: start niginx
+    ansible.builtin.service:
+      name: niginx
+      state: started
+      enabled:yes
+      
