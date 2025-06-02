@@ -6,9 +6,9 @@
   tasks:
   - name: print if the given number is less than or equal to 50
     ansible.builtin.debug:
-      msg:" given number {{NUMBER }} is less than or equal to 50"
-    when: NUMBER < 50
+      msg: " given number {{NUMBER }} is less than or equal to 50"
+    when: NUMBER <= 50
   - name: print if the given number is greather than or equal to 50
     ansible.builtin.debug:
-      msg: " given number {{NUMBER }} is greather than or equal to 50"
+      msg: " given number {{NUMBER }} is greather than  50"
     when: NUMBER > 50
