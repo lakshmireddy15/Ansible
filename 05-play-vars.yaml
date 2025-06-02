@@ -6,11 +6,10 @@
     DURATION: 120 hrs
     TRAINER: siva
   tasks:
-
   - name: print source information
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "hello couser {{ COURSE }} duration {{ DURATION }} with trainer {{ TRAINER}}"
   
   - name: print source information again
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "hello couser {{ COURSE }} duration {{ DURATION }} with trainer {{ TRAINER}}"
