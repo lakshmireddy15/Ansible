@@ -9,7 +9,7 @@
     ansible.buitin.service:
       name: nginx
       state: started
-      enabled: yes
+      enabled: yes # it is equal to systemctl start and enable
 
 
  #ansible install pacakges
