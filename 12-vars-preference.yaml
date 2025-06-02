@@ -17,4 +17,14 @@
     ansible.builtin.debug:
       msg: "{{ GREETING }}"
 
+
+
+# command line
+#task
+#file
+#prmopt
+#play
+#inventory
+
+
   
