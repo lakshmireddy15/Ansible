@@ -9,3 +9,16 @@
   - name: hello world from PLAY 1 and task 2
     ansible.builtin.debug:
       msg: "Hello world from PLAY 1 and task 2"
+
+
+- name: PLAY 2
+  hosts: local
+  connection: local
+  tasks:
+  - name: hello world from PLAY 2 and task 1
+    ansible.builtin.debug:
+      msg: "Hello world from PLAY 2 and task 1"
+
+  - name: hello world from PLAY 2 and task 2
+    ansible.builtin.debug:
+      msg: "Hello world from PLAY 2 and task 2"
